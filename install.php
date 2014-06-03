@@ -356,7 +356,7 @@ CREATE TABLE {$db_prefix}link (
 )".$add."
 INSERT INTO {$db_prefix}link (id, sitename, siteurl, description, taxis) VALUES (1, 'emlog', 'http://www.emlog.net', 'emlog官方主页', 0);
 INSERT INTO {$db_prefix}link (id, sitename, siteurl, description, taxis) VALUES (2, '黔东明珠', 'http://qdmz.sinaapp.com', '黔东明珠--全球首创一句话播客系统', 0);
-INSERT INTO {$db_prefix}link (id, sitename, siteurl, description, taxis) VALUES (3, 'VPS俱乐部', 'http://bestvps.duapp.com', 'VPS俱乐部 学习VPS的好地方', 0);
+INSERT INTO {$db_prefix}link (id, sitename, siteurl, description, taxis) VALUES (3, 'VPS俱乐部', 'http://phpclub.dj-app.com', 'VPS俱乐部 学习VPS的好地方', 0);
 DROP TABLE IF EXISTS {$db_prefix}navi;
 CREATE TABLE {$db_prefix}navi (
   id int(10) unsigned NOT NULL auto_increment,
